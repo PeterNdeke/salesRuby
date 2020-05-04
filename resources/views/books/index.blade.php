@@ -8,6 +8,7 @@
             <a href="{{url('books/create')}}" class="btn btn-primary">Add A New Book</a>
 
                 <div class="card-body">
+                    @include('partials.flash')
                     <table class="table">
                         <thead>
                           <tr>

@@ -8,6 +8,8 @@
             <a href="{{url('authors/create')}}" class="btn btn-primary">Add A New Author</a>
 
                 <div class="card-body">
+                    @include('partials.flash')
+
                     <table class="table">
                         <thead>
                           <tr>
